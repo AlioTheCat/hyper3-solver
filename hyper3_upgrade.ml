@@ -1182,9 +1182,9 @@ let import_bigarray file_name number_line =
 
 let () = print_endline "Des données vont être importées depuis des fichiers externes.\nCela peut prendre quelques minutes.\n";;
 
-let heur_coins_tab = import_array "corner_dtbV2.csv" (facto.(8)*pow3.(7));;
-let half1_edgeheur_tab = import_bigarray "edge1_dtbV3.csv" (facto.(12)/facto.(5)*pow2.(7)) ;;
-let half2_edgeheur_tab = import_bigarray "edge2_dtbV3.csv" (facto.(12)/facto.(5)*pow2.(7));;
+let heur_coins_tab = import_array "databases/corner_dtbV2.csv" (facto.(8)*pow3.(7));;
+let half1_edgeheur_tab = import_bigarray "databases/edge1_dtbV3.csv" (facto.(12)/facto.(5)*pow2.(7)) ;;
+let half2_edgeheur_tab = import_bigarray "databases/edge2_dtbV3.csv" (facto.(12)/facto.(5)*pow2.(7));;
 
 let heur_coins cube = heur_coins_tab.(corner_index cube);;
 let half1_edgeheur cube = half1_edgeheur_tab.{half1_edgeindex cube};;
