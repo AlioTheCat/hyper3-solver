@@ -33,7 +33,7 @@ Once the program has loaded the databases, you're given 3 options :
 
 Let's take a closer look at option 3.
 In this repo there's a picture called `Patron Rempli.png` :
-[!image][Patron Rempli.png]
+![Patron Rempli](https://github.com/user-attachments/assets/9cb81407-3fad-4f48-83fb-b437073ba50b)
 An important fact about the Rubik's Cube is that the moves don't affect the center pieces' positions on the cube. You can therefore fix the orientation of the cube by fixing the positions of the center pieces relatively to the observator (for instance here the red centre is front (F), blue is right (R), white is up (U) etc).
 
 To encode your cube state, you just need to **input the color code** (rbwyog) of **each sticker** at the index corresponding to its position on the cube.
